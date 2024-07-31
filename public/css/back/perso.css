@@ -1,0 +1,80 @@
+ /** PERSO */
+
+ #zone {
+     background-color: #EEE;
+     border          : #000 4px dashed;
+     width           : 400px;
+     padding         : 8px;
+     font-size       : 18px;
+ }
+
+ #envoi {
+     width : 50%;
+     margin: 0 auto;
+ }
+
+ #envoi p {
+     text-align: center;
+ }
+
+ #envoi #fichier {
+     display: none;
+ }
+
+ #nom_fichiers {
+     font-size: 14px;
+     ;
+ }
+
+ #zone,
+ #zone2 {
+     margin-top      : 50px;
+     margin-left     : auto;
+     margin-right    : auto;
+     background-color: #fff;
+     border          : #ced4da 1px dashed;
+     width           : 70%;
+     padding         : 18px;
+     font-size       : 18px;
+ }
+
+ @media screen and (max-widht: 400px) {
+
+     #envoi,
+     #envoi2 {
+         width : 90% !important;
+         margin: 0 auto;
+     }
+ }
+
+ @media screen and (min-widht: 400px) {
+
+     #envoi,
+     #envoi2 {
+         width : 50% !important;
+         margin: 0 auto;
+     }
+ }
+
+
+ #envoi,
+ #envoi2 p {
+     text-align: center;
+ }
+
+ #envoi #fichier,
+ #fichier2 {
+     display: none;
+ }
+
+ #nom_fichiers {
+     font-size: 14px;
+     ;
+ }
+
+ /** INPUT SEARCH */
+
+ input .search {
+     
+    content: "\f002";
+ }
