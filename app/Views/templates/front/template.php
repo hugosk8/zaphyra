@@ -110,22 +110,32 @@
                             <li class="dropdown">
                                 <a href="<?= URL ?>prestations">Nos prestations</a>
                                 <ul>
-                                    <li><a href="<?= URL ?>prestations">Toutes les prestations</a></li>
-                                    <li class="title">Consultations individuelles</li>
-                                    <li><a href="<?= URL ?>soin_aurique">Le soin aurique</a></li>
-                                    <li><a href="<?= URL ?>coaching_de_vie">Le coaching de vie</a></li>
-                                    <li><a href="<?= URL ?>soin_reiki">Le soin réiki</a></li>
-                                    <li class="title">Stages de développement personnel</li>
-                                    <li><a href="<?= URL ?>decouverte_de_sois">La découverte de soi</a></li>
-                                    <li><a href="<?= URL ?>chemin_du_chevalier">Le chemin du Chevalier</a></li>
-                                    <li><a href="<?= URL ?>voie_du_pelerin">La voie du Pèlerin</a></li>
-                                    <li><a href="<?= URL ?>voie_des_sens">La voie des Sens</a></li>
-                                    <li class="title">Stages de formation</li>
-                                    <li><a href="<?= URL ?>initiation_au_reiki">Initiation au réiki</a></li>
-                                    <li><a href="<?= URL ?>intuition_et_symbolique_par_le_tarot">Intuition et symbolique par le tarot</a></li>
-                                    <li><a href="<?= URL ?>radiesthesie">Radiesthésie</a></li>
-                                    <li><a href="<?= URL ?>lithotherapie">Lithothérapie</a></li>
-                                    <li><a href="<?= URL ?>perception_energetique">Perceptions énergétiques</a></li>
+                                    <div class="toutes_presta">
+                                        <li><a href="<?= URL ?>prestations">Toutes les prestations</a></li>
+                                    </div>
+                                    <div class="prestas">
+                                        <div class="consultations_individuels">
+                                            <li class="title">Consultations individuelles</li>
+                                            <li><a href="<?= URL ?>soin_aurique">Le soin aurique</a></li>
+                                            <li><a href="<?= URL ?>coaching_de_vie">Le coaching de vie</a></li>
+                                            <li><a href="<?= URL ?>soin_reiki">Le soin réiki</a></li>
+                                        </div>
+                                        <div class="stage_en_formation">
+                                            <li class="title">Stages de formation</li>
+                                            <li><a href="<?= URL ?>initiation_au_reiki">Initiation au réiki</a></li>
+                                            <li><a href="<?= URL ?>intuition_et_symbolique_par_le_tarot">Intuition et symbolique par le tarot</a></li>
+                                            <li><a href="<?= URL ?>radiesthesie">Radiesthésie</a></li>
+                                            <li><a href="<?= URL ?>lithotherapie">Lithothérapie</a></li>
+                                            <li><a href="<?= URL ?>perception_energetique">Perceptions énergétiques</a></li>
+                                        </div>
+                                        <div class="stage_developpement_personnel">
+                                            <li class="title">Stages de développement personnel</li>
+                                            <li><a href="<?= URL ?>decouverte_de_sois">La découverte de soi</a></li>
+                                            <li><a href="<?= URL ?>chemin_du_chevalier">Le chemin du Chevalier</a></li>
+                                            <li><a href="<?= URL ?>voie_du_pelerin">La voie du Pèlerin</a></li>
+                                            <li><a href="<?= URL ?>voie_des_sens">La voie des Sens</a></li>
+                                        </div>
+                                    </div>
                                 </ul>
                             </li>
                             <li class="">
